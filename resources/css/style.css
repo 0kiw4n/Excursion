@@ -7,24 +7,57 @@
 body
 {
     background-color: black;
+    color: white;
     text-align: center;
+}
+
+h1
+{
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+
+h2
+{
+    font-size: 42px;
+}
+
+a
+{
+    font-size: 16px;
+    color: aquamarine;
 }
 
 #header
 {
-    margin-bottom: 50px;
+    margin: 50px 0;
     font-weight: normal;
 }
 
-#header h1
+#travelContainer
 {
-    margin-bottom: 60px;
-    font-size: 50px;
-    color: white;
+    margin-top: 50px;
+    font-weight: 300;
 }
 
-#header a
+#travelContainer p
 {
-    font-size: 16px;
-    color: aquamarine;
+    margin: 20px 0;
+    font-size: 21px;
+    color: gray;
+}
+
+#commingSoonContainer
+{
+    margin-top: 40px;
+}
+
+#commingSoonContainer img
+{
+    margin-bottom: 20px;
+}
+
+#commingSoonContainer h2
+{
+    margin-bottom: 40px;
 }
